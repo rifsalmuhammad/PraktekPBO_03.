@@ -6,4 +6,10 @@ public class Sepeda {
      String warna;
      double harga;
      
+     
+     void cetakInfo(){
+         System.out.println("merk \t: "+merk+"\n"+
+                 "Warna \t: "+warna+"\n"+
+                 "Harga \t:"+harga);
+     }
 }
