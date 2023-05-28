@@ -36,6 +36,5 @@ public class Sepeda {
     public void setHarga(double harga) {
         this.harga = harga;
     }
-     
-     
+
 }

@@ -3,9 +3,9 @@ package praktekpbo_03;
 public class SepedaMotor extends Sepeda {
     private String JenisMotor;
     
-    void throttle() {
-        System.out.println("SIIIIUUUUUU.......");
-    }
+   void throttle(){
+       
+   } 
 
     public String getJenisMotor() {
         return JenisMotor;
@@ -14,7 +14,6 @@ public class SepedaMotor extends Sepeda {
     public void setJenisMotor(String JenisMotor) {
         this.JenisMotor = JenisMotor;
     }
-    
-    
-    
+   
+   
 }

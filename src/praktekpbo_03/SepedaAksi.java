@@ -16,5 +16,20 @@ public class SepedaAksi {
         System.out.println(s.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
+        
+        Sepeda sm = new SepedaMotor();
+        sm.setMerk("Honda");
+        sm.setWarna("Merah");
+        sm.setHarga(10000);
+        sm.setJenisMotor("Motor Touring");
+        sm.cetakInfo();
+        System.out.println("Jenis \t:"+sm.getJenisMotor());
+        sm.throttle();
+        
+        
+        
+        
+       
+                
     }
 }
